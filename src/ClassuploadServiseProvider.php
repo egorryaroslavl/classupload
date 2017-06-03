@@ -11,8 +11,8 @@
 		{
  
 			$this->publishes([
-				__DIR__ . '/class.upload.php' => base_path('app/class.upload.php'),
-				__DIR__ . '/lang/class.upload.ru_RU.php' => base_path('app/lang/class.upload.ru_RU.php');				
+				__DIR__ . '/class.upload.php' => base_path('app/classupload/class.upload.php'),
+				__DIR__ . '/lang/class.upload.ru_RU.php' => base_path('app/classupload/lang/class.upload.ru_RU.php') 			
 			], '');
 
 
